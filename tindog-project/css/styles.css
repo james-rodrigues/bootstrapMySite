@@ -1,28 +1,10 @@
 body {
   font-family: "Montserrat";
   font-weight: 400;
+  text-align: center;
 }
 
-#title {
-  background-color: #FF4C68;
-  color: #fff;
-}
-
-h1 {
-  font-family: "Montserrat";
-  font-weight: 900;
-  line-height: 1.5;
-  font-size: 3.5rem;
-}
-
-h2 {
-  font-family: "Montserrat";
-  font-weight: 700;
-  line-height: 1.5;
-  font-size: 3rem;
-}
-
-h3 {
+h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat";
   font-weight: 700;
 }
@@ -31,9 +13,39 @@ p {
   color: #8f8f8f;
 }
 
-.container-fluid {
-  padding: 3% 15% 7%;
+/* Container Section */
+.big-heading{
+  font-family: "Montserrat";
+  font-weight: 900;
+  line-height: 1.5;
+  font-size: 3.5rem;
 }
+
+.section-heading {
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections CSS */
+.colored-section {
+  background-color: #FF4C68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #FFF;
+}
+
+/* Title Section */
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
 
 /* Navigation Bar */
 .navbar {
@@ -70,14 +82,15 @@ p {
 
 /* Features Section */
 #features {
-  padding: 7% 15%;
-  background-color: #fff;
   /* z-index: 1; */
   position: relative;
 }
 
+.feature-title{
+  font-size: 1.5rem;
+}
+
 .feature-box {
-  text-align: center;
   padding: 5%;
 }
 
@@ -92,8 +105,6 @@ p {
 
 /* Testimonials Section  */
 #testimonials {
-  text-align: center;
-  color: #fff;
   background-color: #ef8172;
 }
 
@@ -103,14 +114,14 @@ p {
   margin: 20px;
 }
 
-.carousel-item {
-  padding: 7% 15%;
+.testimonial-text{
+  line-height: 1.5;
+  font-size: 3rem;
 }
 
 /* Press Section */
 #press {
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -122,11 +133,24 @@ p {
 /* Pricing Section */
 #pricing {
   padding: 100px;
-  text-align: center;
 }
 
 .pricing-section {
   padding: 3% 2%;
+}
+
+.pricing-text{
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+/* Footer Section */
+#footer {
+  background-color: #fff;
+}
+
+.social-icon {
+  margin: 20px 10px;
 }
 
 @media (max-width: 1028px) {
